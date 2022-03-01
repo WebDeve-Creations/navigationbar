@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/mobile-web-app-vol-4-1/32/Compass_compas_guide_direction_safari-512.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,700|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Editor Engine | Information That You Need</title>
+    <meta name="google-site-verification" content="I3rqxxtQBiIm9rCunJl6AnjpWi5i5v5Hjt94rBtgx_w" />
+  </head>
+  <body>
+
+    <div id="untree_co--overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <nav class="untree_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
+    </nav>
+
+
+    <div class="untree_co--site-wrap">
+
+      <nav class="untree_co--site-nav js-sticky-nav">
+        <div class="container d-flex align-items-center">
+          <div class="logo-wrap">
+            <a href="https://editorengine.web.app" class="untree_co--site-logo">Editor Engine</a>
+          </div>
+          <div class="site-nav-ul-wrap text-center d-none d-lg-block">
+            <ul class="site-nav-ul js-clone-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Get Kit</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a class="navbar-email" href="./account-settings">My Account</a></li>
+            </ul>
+          </div>
+          <div class="icons-wrap text-md-right">
+
+            <ul class="icons-top d-none d-lg-block">
+              <li class="mr-4">
+                <a href="#" class="js-search-toggle"><span class="icon-search2"></span></a>
+              </li>
+            </ul>
+
+            <!-- Mobile Toggle -->
+            <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="untree_co--site-main">
+        
+
+        <div class="owl-carousel owl-hero">
+
+          <div class="untree_co--site-hero overlay" style="background-image: url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-8">
+                  <div class="site-hero-contents text-center" data-aos="fade-up">
+                    <h1 class="hero-heading">Editor Engine</h1>
+                    <div class="sub-text">
+                      <p>Hundreds of plugins for your website that will secure your ability for your creation to grow in the future.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="untree_co--site-hero overlay"  style="background-image: url('https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-7">
+                  <div class="site-hero-contents text-center" data-aos="fade-up">
+                    <h1 class="hero-heading">Get Your Free Capatcha Kit</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="untree_co--site-hero overlay" style="background-image: url('https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_960_720.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-10">
+                  <div class="site-hero-contents text-center" data-aos="fade-up">
+                    <h1 class="hero-heading">Connect Your Website With EE To See Your Progress</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="untree_co--site-section float-left pb-0 featured-rooms">
+
+          <div class="container pt-0 pb-5">
+            <div class="row justify-content-center text-center">  
+              <div class="col-lg-6 section-heading" data-aos="fade-up">
+                <h3 class="text-center">Currently Trending Features:</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid pt-5">
+            <div class="suite-wrap overlap-image-1">
+
+              <div class="suite">
+                <div class="image-stack">
+                  <div class="image-stack-item image-stack-item-top" data-jarallax-element="-50">
+                    <div class="overlay"></div>
+                    <img src="./images/Image_1_a.png" alt="Image" class="img-fluid pic1">
+                  </div>
+                  <div class="image-stack-item image-stack-item-bottom">
+                    <div class="overlay"></div>
+                    <img src="./images/Image_1_b.png" alt="Image" class="img-fluid pic2">
+                  </div>
+                </div>
+              </div> <!-- .suite -->
+
+              <div class="suite-contents" data-jarallax-element="50">
+                <h2 class="suite-title">Professional Video Game Maker</h2>
+                <div class="suite-excerpt">
+                  <p>Explore our new free and/but <a style="padding:2px 10px;background-color:lightgrey;opacity:0.5;border-radius:2px;color:black;">BETA</a> versioned professional videogame maker!<p>
+                  <p><a onclick="myFunction()" class="readmore">Get Started</a></p>
+                </div>
+              </div>
+            </div>
+					<script>
+			
+		  </script>
+            <div class="suite-wrap overlap-image-2">
+
+              <div class="suite">
+                <div class="image-stack">
+                  <div class="image-stack-item image-stack-item-top">
+                    <div class="overlay"></div>
+                    <img src="images/Image-2-a.png" alt="Image" class="img-fluid pic1">
+                  </div>
+                  <div class="image-stack-item image-stack-item-bottom" data-jarallax-element="-50">
+                    <div class="overlay"></div>
+                    <img src="images/Image_2_b.png" alt="Image" class="img-fluid pic2">
+                  </div>
+                </div>
+              </div>
+
+              <div class="suite-contents" data-jarallax-element="50">
+                <h2 class="suite-title">Our Free Database System!</h2>
+                <div class="suite-excerpt pr-5">
+                  <p>Read, Write, create, make, any elements in our free database with just a few clicks! You don't need to code at all!</p>
+                  <p><a href="#" class="readmore">See More</a></p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+		  <br>
+
+        </div>
+		
+		  <div class="untree_co--site-section py-5 bg-body-darker cta">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h1 class="m-0 p-0">Our Mission</h1>
+				<br>
+				<p>We want to improve your website for free. Absolutely no cost at all that will worry you or your customers. We provide Javascript Extentions (Also Known As JS Plugins) that will power your website all the way through. We will give you access to our better and new ReCapatcha device that will report to you daily, we have hundreds of databases that you can use to edit elements from our website and make changes to yours, and we have our own security protection system. We will email and text you on your mobile phone/device (Or Laptop/Computer), showing that we've put your website and all of it's servers in virus protection mode, and these features are just less than one percent of what we and you can do! You will have any and all actions at one time, one place, one second, one <a href="#">Click.</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		
+  
+
+      </div>
+      <footer class="untree_co--site-footer">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 pr-md-5">
+              <h3>About Us</h3>
+              <p>Editor Engine Is A Blog-Posting Website With Useful And Helpful Materials That Help You Understand The Better Concept Of Technology. This Information Will Immensly Help You With Your Future And You Will Gain More Knowledge Just By Simply Listening To What Information Is Important At Stake.</p>
+              <p><a href="#" class="readmore">Read more</a></p>
+            </div>
+            <div class="col-md-8 ml-auto">
+              <div class="row">
+                <div class="col-md-3">
+                  <h3>Navigation</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-9 ml-auto">
+                  <div class="row mb-3">
+                    <div class="col-md-6">
+                      <h3>Telephone</h3>
+                      <p>
+                        <a href="#">(1) 331-213-5224</a> 
+                      </p>
+                    </div>
+                  </div>
+
+                  <h3 class="mb-0">Join our newsletter</h3>
+                  <p>Be the first to know our latest updates and news!</p>
+                  <form action="#" method="" class="form-subscribe">
+                    <div class="form-group d-flex">
+                      <input type="email" class="form-control mr-2" placeholder="Enter your email">
+                      <input type="submit" value="Subscribe" class="btn btn-black px-4 text-white">
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 pt-5 align-items-center">
+            <div class="col-md-6 text-md-left">
+              <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
+              <p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="index.html">EditorEngine.web.app</a>. All Rights Reserved. Made And Designed By Shushan Arora</a>
+              </p>
+            <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
+            </div>
+            <div class="col-md-6 text-md-right">
+              <ul class="icons-top icons-dark">
+              <li>
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-twitter"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-instagram"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-tripadvisor"></span></a>
+              </li>
+            </ul>
+
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+
+    <!-- Search -->
+    <div class="search-wrap">
+      <a href="#" class="close-search js-search-toggle">
+        <span></span>
+      </a>
+      <div class="container">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-md-12">
+            
+              <input type="text" id="link_id" placeholder="Type a keyword and hit enter..." >
+			  <br><br>
+			  <button onClick='javascript:goTo()'>Search</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    
+    <script src="js/vendor/jarallax.min.js"></script>
+    <script src="js/vendor/jarallax-element.min.js"></script>
+    <script sr c="js/vendor/ofi.min.js"></script>
+
+    <script src="js/vendor/aos.js"></script>
+
+    <script src="js/vendor/jquery.lettering.js"></script>
+    <script src="js/vendor/jquery.sticky.js"></script>
+
+    <script src="js/vendor/TweenMax.min.js"></script>
+    <script src="js/vendor/ScrollMagic.min.js"></script>
+    <script src="js/vendor/scrollmagic.animation.gsap.min.js"></script>
+    <script src="js/vendor/debug.addIndicators.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          var firebaseConfig = {
+           apiKey: "AIzaSyAWRcWHQnGQjq9ncA5ws4vyE8C5IzP7EaI",
+          authDomain: "editorengine.firebaseapp.com",
+          projectId: "editorengine",
+          storageBucket: "editorengine.appspot.com",
+          messagingSenderId: "574463932546",
+          appId: "1:574463932546:web:2bb80fa6c438b8715f5c9b"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+        
+      
+        
+          //signup function
+          function signUp(){
+            var email = document.getElementById("email");
+            var password = document.getElementById("password");
+        
+            const promise = auth.createUserWithEmailAndPassword(email.value,password.value);
+            //
+            promise.catch(e=>alert(e.message));
+            alert("SignUp Successfully");
+          }
+        
+          //signIN function
+          function  signIn(){
+            var email = document.getElementById("email");
+            var password  = document.getElementById("password");
+            const promise = auth.signInWithEmailAndPassword(email.value,password.value);
+            promise.catch(e=>alert(e.message));
+            promise.catch(e=>console.log(e.message));
+            
+          }
+		  
+		    function getUserProfile() {
+  // [START auth_get_user_profile]
+  const user = firebase.auth().currentUser;
+  if (user !== null) {
+    // The user object has basic properties such as display name, email, etc.
+    const displayName = user.displayName;
+    const email = user.email;
+    const photoURL = user.photoURL;
+    const emailVerified = user.emailVerified;
+
+    // The user's ID, unique to the Firebase project. Do NOT use
+    // this value to authenticate with your backend server, if
+    // you have one. Use User.getIdToken() instead.
+    const uid = user.uid;
+  }
+  // [END auth_get_user_profile]
+}
+        
+        
+          //signOut
+        
+          function signOut(){
+            auth.signOut();
+            alert("SignOut Successfully from System");
+          }
+        
+          //active user to homepage
+  firebase.auth().onAuthStateChanged((user)=>{
+    if(user){
+      const displayName = user.displayName;
+     var x = document.getElementsByClassName("navbar-email");
+     var i;
+     for (i = 0; i < x.length; i++) {
+   x[i].innerHTML = ("" +displayName);
+  }
+  console.log(user)
+        
+            }else{
+              window.location.assign("../login/");
+            }
+          })
+          </script>
+		  
+		 <script type="text/javascript">
+
+    function link() {
+        var link_s = document.getElementById('link_id').value;
+        document.getElementById('link_str').innerHTML = link_s.link()
+    }
+
+    </script>
+	
+	<script>
+	 function goTo(){
+    location.href = "https://search-editorengine.web.app/" + document.getElementById('link_id').value + "/";
+}
+</script>
+  </body>
+</html>
